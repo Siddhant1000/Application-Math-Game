@@ -1,2 +1,2 @@
 # Application-Math-Game
-Link : http://math-application-05e80c.netlify.app
+Link : https://math-game-05df83.netlify.app
