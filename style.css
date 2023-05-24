@@ -1,0 +1,162 @@
+html
+{
+    background: grey;
+}
+
+#container
+{
+    height:400px;
+    width:500px;
+    background-color: lightblue;
+    margin: 160px auto;
+    padding:10vh 11vh;
+    border-radius: 30px; 
+    box-shadow:0px 4px rgb(63, 183, 199) ;
+    position: relative;
+
+
+}
+#score
+{
+    background-color:rgb(230, 230, 12) ;
+    color:rgb(87, 85, 85);
+    padding:1.5vh;
+    position:absolute;
+    left:62vh;
+    top:3vh;
+    box-shadow:0px 2px rgb(170, 77, 15) ;
+    
+
+
+}
+#correct
+{
+    position:absolute;
+    left:32vh;
+    color:white;
+    background-color:rgb(18, 179, 18);
+    padding:1vh;
+    top:40px;
+    display: none;
+    
+}
+
+#wrong
+{
+    position:absolute;
+    left:32vh;
+    color:white;
+    background-color:rgb(218, 38, 38);
+    padding:1vh;
+    top:40px;
+    display: none;
+    
+}
+
+#question
+{
+    width:45vh;
+    height:15vh;
+    background-color: rgb(233, 113, 133);
+    margin:20px auto 10px auto;
+    font-size: 10vh;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    box-shadow:0px 4px 0px 0px rgb(84, 63, 204);
+}
+
+#instruction
+{
+    background-color: rgb(224, 157, 224);
+    height:5vh;
+    width:45vh;
+    text-align: center;
+    margin:30px 30px 40px 30px;
+    line-height:40px ;
+    box-shadow: 0px 2px rgb(159, 37, 230);
+
+    
+    
+}
+
+#choice
+{
+    width:90vh;
+    height:100px;
+    margin:5px 15px;
+
+
+}
+.box
+{
+    width:82px;
+    height: 80px;
+    background-color: white;
+    float: left ;
+    margin-left: 29px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0px 3px rgb(206, 206, 206);
+    text-align: center;
+    line-height: 80px;
+    transition: all 0.2s;
+    position: relative;
+}
+
+
+.box:hover,#startreset:hover
+{
+    background-color: rgb(233, 113, 133);
+}
+
+#startreset
+{
+    width:80px;
+    padding :1.5vh;
+    background-color:white;
+    position: absolute;
+    bottom:39px;
+    margin:0px 190px ;
+    cursor: pointer;
+    border-radius: 7px;
+    text-align: center;
+    box-shadow:0px 2px rgb(170, 167, 167);
+    transition: all 0.2s;
+    
+
+}
+
+#timeremaining
+{
+    width:160px;
+    background-color: rgb(230, 230, 118);
+    position:absolute;
+    padding:1.5vh;
+    bottom:39px;
+    right:20px;
+    border-radius: 5px;;
+    box-shadow: 0px 4px rgb(175, 175, 14);
+    text-align: center;
+    display: none;
+
+
+}
+
+#gameover
+{
+    height:210px;
+    width:500px;
+    background-color:rgb(26, 212, 150);
+    color: white;
+    text-align: center;
+    font-size:xx-large ;
+    text-transform: uppercase;
+    position: absolute;
+    top:142px;
+    display: none;
+}
+
+
+
+
